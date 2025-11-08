@@ -7,7 +7,7 @@ const SingleUser = () => {
     return (
         <div>
             <h2 className='text-5xl font-bold mb-5'>{user.name}</h2>
-            <h2 className='text-2xl font-bold'>{user.email}</h2>
+            <h2 className='text-2xl font-semibold'>{user.email}</h2>
             
         </div>
     );
